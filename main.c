@@ -17,6 +17,9 @@ int main() {
     } else {
         printf("Invalid input!");
     }
+    char a;
+    scanf("%c", &a);
+    return 0;
 }
 
 void binaryof() {
@@ -60,7 +63,6 @@ void decimalof() {
         int binaryDigit = myNum[i] - '0';
         if (binaryDigit != 0 && binaryDigit != 1) {
             printf("Invalid binary number.\n");
-            return;
         }
         decimalNumber += binaryDigit * pow(2, length - 1 - i);
     }
