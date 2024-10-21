@@ -24,7 +24,7 @@ int main() {
 
 void binaryof() {
     int myNum;
-    printf("Enter a number in decimal (max: 4096): ");
+    printf("Enter a number in decimal (max: 2047): ");
     scanf("%d", &myNum);
     if (myNum <= 4096) {
         int binaryNumber[12] = {0};
